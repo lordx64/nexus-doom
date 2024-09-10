@@ -1,0 +1,44 @@
+# Rust build artifacts
+/target/
+
+# Cargo.lock for libraries
+Cargo.lock
+
+/target
+**/*.rs.bk
+Cargo.lock
+.DS_Store
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build output
+/out/
+
+# Dependency directories
+/vendor/
+
+# Generated files
+**/*.rs.bk
+
+# Nexus zkVM specific
+*.elf
+*.zkvm
+
+# PureDOOM specific
+puredoom_patched.h
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Environment variables
+.env
